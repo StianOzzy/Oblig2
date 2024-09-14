@@ -9,7 +9,9 @@
 
 ## Oppgave 2 - Løkker 
 
-Skriv et program som skriver ut alle oddetall fra og med 9 til 101. Lag to alternativer for programmet; en hvor du benytter en for-løkke og hvor du benytter en while-løkke. 
+Skriv et program som skriver ut alle oddetall fra og med 9 til 101. 
+
+Lag to alternativer for programmet; en hvor du benytter en for-løkke og hvor du benytter en while-løkke. 
 
  
 
@@ -25,12 +27,16 @@ Opprett en liste med Tolkien sine bøker:
     The Adventures of Tom Bombadil  
     Tree and Leaf 
 
-     Skriv ut de to første og de to siste bøkene i listen.
-    Legg til to av bøkene som ble utgitt etter hans død: 
-        The Silmarillion 
-        Unfinished Tales  
-    Gjør endringer på de tre bøkene i Lord of the Rings trilogien og legg til "Lord of the Rings: " foran hver av dem. (hvis dere ikke vet hvilke dette er, vet Google) 
-    Sorter lista og skriv den ut. 
+Skriv ut de to første og de to siste bøkene i listen.
+
+Legg til to av bøkene som ble utgitt etter hans død:
+
+    The Silmarillion 
+    Unfinished Tales  
+    
+Gjør endringer på de tre bøkene i Lord of the Rings trilogien og legg til "Lord of the Rings: " foran hver av dem. (hvis dere ikke vet hvilke dette er, vet Google) 
+
+Sorter lista og skriv den ut. 
 
  
 
@@ -40,16 +46,15 @@ Opprett en tom liste. Gå gjennom listen med bøker fra Oppgave 3 og legg dem ti
 
  
 
-## Oppgave 5 - for-løkke(r) - Dart 
+## Oppgave 5 - for-løkke(r) - Dart
 
-    I denne oppgaven skal du simulere et dartspill. Det skal kastes 3 piler. Hvert kast gir mellom 0 og 60 poeng. Du kan bruke randrange(<fra>, <til>) for å generere en tilfeldig score for hvert kast. For mer info angående randrange, se her 
-
-    Links to an external site.. Skriv ut sluttscoren. 
-    Utvid oppgaven til å ta som input hvor mange spillere som skal spille. Hver spiller skal kaste 3 piler hver. Spilleren skal kaste alle 3 pilene før neste spiller skal kaste. Skriv ut resultat for hver spiller når spilleren er ferdig med å kaste. 
+I denne oppgaven skal du simulere et dartspill. Det skal kastes 3 piler. Hvert kast gir mellom 0 og 60 poeng. Du kan bruke randrange(<fra>, <til>) for å generere en tilfeldig score for hvert kast. For mer info angående randrange, se her 
+Links to an external site.. Skriv ut sluttscoren. 
+Utvid oppgaven til å ta som input hvor mange spillere som skal spille. Hver spiller skal kaste 3 piler hver. Spilleren skal kaste alle 3 pilene før neste spiller skal kaste. Skriv ut resultat for hver spiller når spilleren er ferdig med å kaste. 
 
  
 
-## Oppgave 6 – Pakkeliste 
+## Oppgave 6 – Pakkeliste
 
 Du skal lage et lite program som gjør det mulig å lage en pakkeliste for når du skal ut og reise. Programmet skal først skrive ut hvilke valg brukeren har for listeoperasjoner, i form av kommandoer: En for å legge til noe, en for å slette noe, og en for å skrive ut hele listen. Brukeren skal deretter kunne skrive en input for å velge hvilken kommando som skal tas i bruk. Programmet skal gå i en evig løkke frem til brukeren avslutter det med en egen kommando for dette. Du velger selv hva kommandoene skal være (F.eks. enkeltbokstaver eller ord).
 
@@ -61,9 +66,8 @@ Bonusoppgavene er frivillige og typisk vanskeligere enn hovedoppgavene av en obl
 ## Bonusoppgave 1 – Dart 2.0 
 
 Vi her skal forbedre dartoppgaven.  
-
-     Utvid programmet til å ta imot antall piler og antall runder hver spiller skal kaste. 
-     Fremfor et tilfeldig tall mellom 0 og 60, så skal du benytte de lovlige poengene man kan få med et kast. Som er 0p, 1-20p (samt dobbel og trippel av disse), 25p (outer bullseye) og 50p (inner bullseye). 
+Utvid programmet til å ta imot antall piler og antall runder hver spiller skal kaste. 
+Fremfor et tilfeldig tall mellom 0 og 60, så skal du benytte de lovlige poengene man kan få med et kast. Som er 0p, 1-20p (samt dobbel og trippel av disse), 25p (outer bullseye) og 50p (inner bullseye). 
 
  
 
