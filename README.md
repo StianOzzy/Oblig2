@@ -1,6 +1,6 @@
 Programmering 
 
-Oppgave 1 - If og else 
+Oppgave 1 - If og else
 
 1. Ta et tall fra brukeren på følgende måte: input("Hva er svaret på det ultimate spørsmålet om livet, universet og alle ting? Hint: Det er et tall."). Konverter inputen til int og lag en if-test som sjekker om verdien er lik 42. Hvis dette er tilfellet, skriv ut "Det stemmer, meningen med livet er 42!", hvis ikke; skriv ut "FEIL!". 
 
