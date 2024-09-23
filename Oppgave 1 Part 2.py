@@ -2,8 +2,7 @@
 while True:
 
     # Tar imot brukers input, og gjør lagrer verdien som en integer
-    user_input = int(
-        input("Hva er svaret på det ultimate spørsmålet om livet, universet og alle ting? Hint: Det er et tall.\n"))
+    user_input = int(input("Hva er svaret på det ultimate spørsmålet om livet, universet og alle ting? Hint: Det er et tall.\n"))
 
     # Sjekker om verdien stemmer overens med det ønskede svaret.
     if user_input == 42:
