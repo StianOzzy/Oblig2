@@ -48,8 +48,7 @@ Opprett en tom liste. Gå gjennom listen med bøker fra Oppgave 3 og legg dem ti
 
 ## Oppgave 5 - for-løkke(r) - Dart
 
-I denne oppgaven skal du simulere et dartspill. Det skal kastes 3 piler. Hvert kast gir mellom 0 og 60 poeng. Du kan bruke randrange(<fra>, <til>) for å generere en tilfeldig score for hvert kast. For mer info angående randrange, se her 
-Links to an external site.. Skriv ut sluttscoren. 
+I denne oppgaven skal du simulere et dartspill. Det skal kastes 3 piler. Hvert kast gir mellom 0 og 60 poeng. Du kan bruke randrange(<fra>, <til>) for å generere en tilfeldig score for hvert kast. Skriv ut sluttscoren. 
 Utvid oppgaven til å ta som input hvor mange spillere som skal spille. Hver spiller skal kaste 3 piler hver. Spilleren skal kaste alle 3 pilene før neste spiller skal kaste. Skriv ut resultat for hver spiller når spilleren er ferdig med å kaste. 
 
  
