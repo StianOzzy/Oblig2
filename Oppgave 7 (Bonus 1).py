@@ -6,13 +6,14 @@ player_number = 0
 # Starten av loopen
 for i in range (player_count):
 
+
     # Starter spillernavn-intervallen, og skriver ut navnet på spilleren
     player_number = player_number + 1
 
-    player_throws = int(input(f"How many throws should Player Number #{player_number} throw?\n"))
-    print(f"\nPlayer Number #{player_number}")
+    player_throws = int(input(f"\nHow many throws should Player #{player_number} throw?\n"))
+    print(f"\nPlayer #{player_number}:")
 
-    # Kast
+    # Kast med definerin
     for i in range(player_throws):
 
 
@@ -38,20 +39,4 @@ for i in range (player_count):
             throw_value = 50
             print(f"Player {player_number} throws 50")
         else:
-            print("SHit")
-
-
-
-
-'''
-    throw_1 = (random.randrange(0,60))
-    print(f"Throw 1: {throw_1}")
-    throw_2 = (random.randrange(0,60))
-    print(f"Throw 2: {throw_2}")
-    throw_3 = (random.randrange(0,60))
-    print(f"Throw 3: {throw_3}")
-
-    # Sammenlegging av total score
-    score = (throw_1 + throw_2 + throw_3)
-    print(f"Total Score: {score}")
-'''
+            print("Error Code: RNG faulty")
