@@ -1,11 +1,8 @@
 packing_list = []
 while True:
-    print("Packing List")
-    print("1. Add item to list")
-    print("2. Remove item from list")
-    print("3. Print List")
-    print("4. Exit")
+    print("Packing List\n1. Add item to list\n2. Remove item from list\n3. Print List\n4. Exit")
     user_input = input("Write the corresponding number to execute a command\n\n> ")
+
     if user_input == "1":
         item_to_be_added =str(input("Enter the item to add\n\n> "))
         packing_list.append(item_to_be_added)
